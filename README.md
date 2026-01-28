@@ -1,7 +1,5 @@
-![PyPI](https://img.shields.io/pypi/v/mcguard)
-![Python](https://img.shields.io/pypi/pyversions/mcguard)
-![License](https://img.shields.io/pypi/l/mcguard)
-![Tests](https://github.com/Axisstorm110/mcguard/actions/workflows/tests.yml/badge.svg)
+![TestPyPI](https://img.shields.io/badge/TestPyPI-mcguard-blue)
+
 
 \# mcguard
 
