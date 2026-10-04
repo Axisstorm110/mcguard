@@ -5,3 +5,47 @@ build-backend = "hatchling.build"
 [project]
 name = "mcguard"
 version = "0.1.0"
+description = "Guardrailed resampling: cluster-aware bootstrap confidence intervals and constrained permutation tests for clustered biomedical data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Syed Hamzah Rizvi" },
+]
+keywords = [
+    "statistics",
+    "bootstrap",
+    "permutation-test",
+    "resampling",
+    "clustered-data",
+    "biomedical-informatics",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.22",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Axisstorm110/mcguard"
+Repository = "https://github.com/Axisstorm110/mcguard"
+Issues = "https://github.com/Axisstorm110/mcguard/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcguard"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
