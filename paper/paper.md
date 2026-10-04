@@ -168,9 +168,6 @@ bootstrap confidence intervals. The cluster-aware bootstrap and constrained perm
 tests it provides are directly applicable to benchmarking studies that compare model
 performance across patient subgroups in clinical AI research, where standard independence
 assumptions are routinely violated by the repeated-measures structure of EHR data.
-The library is currently under consideration for citation and methodological
-incorporation in a methods paper on EHR data quality and reproducibility in clinical AI,
-in collaboration with researchers at the MIT Laboratory of Computational Physiology.
 
 More broadly, `mcguard` addresses a reproducibility risk that affects a substantial
 fraction of published biomedical ML evaluations: any study that reports bootstrap
