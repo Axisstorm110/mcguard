@@ -4,7 +4,6 @@
 
 If you have clustered data like multiple measurements per patient, repeated trials per subject, or samples grouped by site, the standard iid bootstrap underestimates uncertainty and produces overconfident confidence intervals. `mcguard` fixes this.
 
-[![PyPI](https://img.shields.io/pypi/v/mcguard)](https://pypi.org/project/mcguard/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
@@ -12,8 +11,12 @@ If you have clustered data like multiple measurements per patient, repeated tria
 
 ## Installation
 
+Install from source:
+
 ```bash
-pip install mcguard
+git clone https://github.com/Axisstorm110/mcguard.git
+cd mcguard
+pip install .
 ```
 
 ---
